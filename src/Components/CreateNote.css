@@ -1,0 +1,96 @@
+.main_note {
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+    
+}
+
+form{
+/* border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1; */
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  padding: 1em;
+  border: 1px solid rgba(0,0,0,0.15);
+  display: grid;
+  gap: 1em;
+  background: #fafafa;
+}
+
+
+.title {
+    width: 100%;
+    line-height : 30px;
+    background : transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    /* border: 2px solid #f4b400; */
+}
+
+.sub-title {
+    width: 100%;
+    line-height : 25px;
+    background : transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    margin: 5px 0;
+    font-weight: bold;
+    /* border: 2px solid #f4b400; */
+}
+
+.textArea{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 0px 0px 0px 0px;
+    /* border: 2px solid #f4b400; */
+}
+
+.button{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    left:425px;
+    cursor: pointer;
+    background-color: #fff !important;
+    box-shadow: 5px 5px 15px -15px rgba(0, 0, 0, 0.3);
+    border-radius: 50% !important;
+    /* border: 2px solid #f76a6a; */
+} 
+
+.button .plus_sign {
+    font-size: 35px !important;
+    font-weight: 900;
+    color: #AAAAAA;
+    /* border: 1px solid #f76a6a; */
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+}
+
+.button:hover{
+    background: #FFC7C7 !important;
+  }
+  
+  .button:hover .plus_sign{
+    color: #fff;
+    background: transparent;
+  }
+
+  .background{
+    background-image: url(../Images/bg3.jpg);
+    height: 93vh;
+    margin-top: -20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -30 ;
+    /* background-size: cover; */
+  } 
